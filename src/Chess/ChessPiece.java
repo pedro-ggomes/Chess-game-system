@@ -3,17 +3,15 @@ package Chess;
 import BoardGame.Board;
 import BoardGame.Piece;
 
-import java.awt.*;
-
 public class ChessPiece extends Piece {
-    private COLOR color;
+    private Color color;
 
-    public ChessPiece(Board board, COLOR color) {
+    public ChessPiece(Board board, Color color) {
         super(board);
         this.color = color;
     }
 
-    public COLOR getColor() {
+    public Color getColor() {
         return color;
     }
 }

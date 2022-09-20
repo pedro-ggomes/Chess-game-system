@@ -1,12 +1,12 @@
 package Chess.Pieces;
 
 import BoardGame.Board;
-import Chess.COLOR;
+import Chess.Color;
 import Chess.ChessPiece;
 
 public class Rook extends ChessPiece {
 
-    public Rook(Board board, COLOR color) {
+    public Rook(Board board, Color color) {
         super(board, color);
     }
 
